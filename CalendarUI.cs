@@ -45,8 +45,8 @@ public class CalendarUI : MonoBehaviour {
 
 		if (todSky) {
 			todTime.ProgressTime = tt;
-			todTime.ProgressDate = tt;
-			todTime.ProgressMoonPhase = tt;
+//			todTime.ProgressDate = tt;
+//			todTime.ProgressMoonPhase = tt;
 			todTime.DayLengthInMinutes = odm;
 		}
 	}
