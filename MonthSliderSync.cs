@@ -10,7 +10,7 @@ public class MonthSliderSync : MonoBehaviour
 		private Slider slider;
 
 		// Use this for initialization
-		void Start ()
+		void Awake ()
 		{ 
 				slider = GetComponent<Slider> ();
 
