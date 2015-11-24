@@ -7,6 +7,7 @@ public class MonthSliderSync : MonoBehaviour
 {
 
 	public Slider monthSlider;
+	private Slider slider;
 
 	// Use this for initialization
 	void Awake ()
