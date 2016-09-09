@@ -28,8 +28,9 @@ public class CalendarUI : MonoBehaviour {
 			timeTick.isOn = todTime.ProgressTime;
 			oneDayMin.value = todTime.DayLengthInMinutes;
 		} else {
-			Debug.Log ("This Calendar UI is ment to be used with Time of Day : http://modmonkeys.net/");
+			Debug.Log ("This Calendar UI is meant to be used with Time of Day : http://modmonkeys.net/");
 		}
+
 	}
 	
 	// Update is called once per frame
